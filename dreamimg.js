@@ -1,8 +1,8 @@
 var fs = require('fs');
 var Jimp = require('jimp');
 
-const MaskSizex = 195;
-const MaskSizey = 130;
+const MaskSizex = 582;
+const MaskSizey = 387;
 const OffsetX = 0;
 const OffsetY = 0;
 
