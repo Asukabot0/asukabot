@@ -26,8 +26,8 @@ var dreamImage = function(inputImage, agent = null) {
             foreground.contain(MaskSizex, MaskSizey);
             var cloud = foreground.clone();
             cloud.mask(cloudMask);
-            composed.composite(cloud, OffsetX, OffsetY);
-            composed.getBuffer(Jimp.MIME_PNG, (err, buffer) => {
+            cloud.composite(composed, OffsetX, OffsetY);
+            cloud.getBuffer(Jimp.MIME_PNG, (err, buffer) => {
                 if (err) {
                     throw err;
                 }
