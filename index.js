@@ -31,7 +31,7 @@ const options = {
 };
 const bot = new Telegraf(API_TOKEN, options);
 
-bot.start(ctx => ctx.reply('Send image you want to break to me.'));
+bot.start(ctx => ctx.reply('想啥呢.'));
 bot.command('help', ctx => {
     ctx.reply('Send image you want to break to me. It can be either photo or document.')
 });
