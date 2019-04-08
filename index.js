@@ -1,5 +1,5 @@
-const BrkImg = require('./brkimg.js');
-const DrmImg = require('./dreamimg.js')
+const BrkImg = require('./plugins/brkimg.js/index.js');
+const DrmImg = require('./plugins/dreamimg.js/index.js')
 const Telegraf = require('telegraf');
 const { createLogger, format, transports } = require('winston');
 const { combine, timestamp, label, prettyPrint } = format;
