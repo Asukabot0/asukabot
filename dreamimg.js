@@ -8,10 +8,10 @@ const OffsetY = 0;
 
 // Read background image
 var backgroundImage = null;
-Jimp.read('drm_background.png').then(image => {
+Jimp.read('images/drm_background.png').then(image => {
     backgroundImage = image;
 });
-Jimp.read('drm_cloudMask.png').then(image => {
+Jimp.read('images/drm_cloudMask.png').then(image => {
     cloudMask = image;
 });
 

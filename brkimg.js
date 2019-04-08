@@ -11,13 +11,13 @@ const Diff = 5;
 var backgroundImage = null;
 var upperMask = null;
 var lowerMask = null;
-Jimp.read('brk_background.png').then(image => {
+Jimp.read('images/brk_background.png').then(image => {
     backgroundImage = image;
 });
-Jimp.read('brk_uppermask.png').then(image => {
+Jimp.read('images/brk_uppermask.png').then(image => {
     upperMask = image;
 });
-Jimp.read('brk_lowermask.png').then(image => {
+Jimp.read('images/brk_lowermask.png').then(image => {
     lowerMask = image;
 });
 
