@@ -1,3 +1,3 @@
 # asukabot
-It's biu's private bot /n
+It's biu's private bot  
 TO BE IMPROVED（
